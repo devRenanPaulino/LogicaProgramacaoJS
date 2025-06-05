@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #D6F5D6, #FFF9E3); /* verde claro + amarelo pastel */
+  color: #4D3B24; /* marrom suave */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.container {
+  background: #fffefa;
+  border-radius: 20px;
+  padding: 2rem 2rem;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 3px dashed #A0C49D; /* tom hortelã claro */
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #FF6A00; /* laranja mamão */
+  font-weight: 700;
+}
+
+input {
+  padding: 12px;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid #A0C49D;
+  margin: 1rem 0;
+  background-color: #F9FFF9;
+  color: #333;
+}
+
+input::placeholder {
+  color: #bbb;
+}
+
+button {
+  padding: 12px;
+  font-size: 1rem;
+  width: 100%;
+  background-color: #FF9A76; /* tom de pêssego */
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #FF7F50; /* coral */
+}
+
+#resultado {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: #FFF2D7;
+  padding: 1rem;
+  border-radius: 12px;
+  color: #4D3B24;
+  border: 1px dashed #FFCF81;
+}

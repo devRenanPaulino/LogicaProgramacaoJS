@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comic Sans MS', 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #3E885B, #76B041); /* tons de verde escolar */
+  color: #fffefc;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 2px dashed #ffffff80;
+  backdrop-filter: blur(8px);
+  padding: 2.5rem 2rem;
+  border-radius: 20px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #FFD700; /* amarelo lápis */
+  text-shadow: 1px 1px 2px #00000050;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-align: left;
+  color: #fffde7;
+}
+
+input {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 1.2rem;
+  background-color: #ffffff;
+  color: #333333;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  background-color: #1976D2; 
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #1565C0;
+}
+
+h3 {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  color: #fdfdfd;
+}
+
+#resultado {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  color: #fffefc;
+  border: 1px dashed #fff;
+}

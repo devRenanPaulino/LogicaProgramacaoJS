@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Reajuste Salarial</title>
+</head>
+<body>
+  <h2>Reajuste Salarial</h2>
+
+  <label>Digite o salário atual do funcionário (R$):</label><br>
+  <input type="number" id="salario" step="0.01"><br><br>
+
+  <label>Digite o percentual de reajuste (%):</label><br>
+  <input type="number" id="percentual" step="0.01"><br><br>
+
+  <button onclick="calcularReajuste()">Calcular</button>
+
+  <h3>Resultado:</h3>
+  <p id="resultado"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Número de Eleitores</title>
+</head>
+<body>
+  <h2>Número de Eleitores</h2>
+
+  <label>Total de eleitores:</label><br>
+  <input type="number" id="totalEleitores"><br><br>
+
+  <label>Votos brancos:</label><br>
+  <input type="number" id="votosBrancos"><br><br>
+
+  <label>Votos nulos:</label><br>
+  <input type="number" id="votosNulos"><br><br>
+
+  <label>Votos válidos:</label><br>
+  <input type="number" id="votosValidos"><br><br>
+
+  <button onclick="calcularPercentuais()">Calcular</button>
+
+  <h3>Resultados:</h3>
+  <p id="resultadoBrancos"></p>
+  <p id="resultadoNulos"></p>
+  <p id="resultadoValidos"></p>
+
+  <script src="exercicio8.js"></script>
+
+</body>
+</html>

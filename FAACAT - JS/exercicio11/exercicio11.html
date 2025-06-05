@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Salário com Comissões</title>
+</head>
+<body>
+  <h2>Salário após Comissões</h2>
+
+  <label>Salário fixo do empregado (R$):</label><br>
+  <input type="number" id="salarioFixo" step="0.01"><br><br>
+
+  <label>Total de carros vendidos:</label><br>
+  <input type="number" id="totalVendido"><br><br>
+
+  <label>Valor total das vendas brutas (R$):</label><br>
+  <input type="number" id="totalVendas" step="0.01"><br><br>
+
+  <label>Comissão fixa por carro vendido (R$):</label><br>
+  <input type="number" id="comissaoFixa" step="0.01"><br><br>
+
+  <button onclick="calcularSalarioFinal()">Calcular</button>
+
+  <h3>Resultado:</h3>
+  <p id="resultado"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

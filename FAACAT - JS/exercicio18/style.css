@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #E3F2FD, #E8F5E9); /* Azul e verde suaves */
+  color: #1B1B1B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-left: 6px solid #1565C0; /* Azul institucional */
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.6rem;
+  color: #1565C0;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 0.8rem 0 0.3rem;
+  font-weight: 600;
+  color: #2E7D32; /* Verde eleição */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1565C0;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #1565C0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0d47a1;
+}
+
+#resposta {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2E7D32;
+  background-color: #f1f8e9;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px dashed #AED581;
+}
