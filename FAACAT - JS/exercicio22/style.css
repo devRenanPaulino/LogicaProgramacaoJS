@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #F4F6F8, #EDEFF1);
+  color: #2E2E2E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  max-width: 460px;
+  width: 100%;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  border-top: 5px solid #005792; /* Azul corporativo */
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #005792;
+  font-weight: 600;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 0.8rem 0 0.3rem;
+  font-weight: 600;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #CED4DA;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-color: #F8F9FA;
+  color: #2E2E2E;
+}
+
+input:focus {
+  border-color: #005792;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 87, 146, 0.15);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #005792;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+button:hover {
+  background-color: #003F63;
+}
+
+h3 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+#resultado {
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background-color: #F1F5F9;
+  border-left: 5px solid #005792;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #1C3B57;
+  font-size: 1.1rem;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.04);
+}
