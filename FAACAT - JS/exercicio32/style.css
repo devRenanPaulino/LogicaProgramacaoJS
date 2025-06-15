@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(145deg, #0c0c2c, #1b1b40);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #00bfff;
+  text-shadow: 0 0 10px rgba(0, 191, 255, 0.5);
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 1rem 0 0.4rem;
+  font-weight: bold;
+  color: #ccc;
+}
+
+input {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 0.5rem;
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #00bfff;
+  border: none;
+  border-radius: 8px;
+  color: #0c0c2c;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0096c7;
+}
+
+#resultado {
+  margin-top: 1.5rem;
+}
+
+.resultado-box {
+  background-color: #141446;
+  border-left: 5px solid #00bfff;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0 0 5px #000;
+}
+
+.vencedor {
+  color: #00ffea;
+  font-weight: bold;
+}
+
+.empate {
+  color: #ffdd00;
+  font-weight: bold;
+}
+
+.erro {
+  color: #ff4d4d;
+  background-color: #2b0000;
+  padding: 1rem;
+  border-radius: 8px;
+}

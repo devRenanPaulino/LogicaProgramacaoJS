@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto Estoque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Controle de Estoque</h2>
+
+        <label for="produtoEstoque">Quantidade atual no estoque:</label>
+        <input type="number" id="produtoEstoque" placeholder="Ex: 20" />
+
+        <label for="estoqueMaximo">Quantidade máxima do estoque:</label>
+        <input type="number" id="estoqueMaximo" placeholder="Ex: 50" />
+
+        <label for="estoqueMinimo">Quantidade mínima do estoque:</label>
+        <input type="number" id="estoqueMinimo" placeholder="Ex: 10" />
+
+        <button onclick="verificarCompra()">Verificar Situação</button>
+
+        <h3>Resultado:</h3>
+        <p id="resultado"></p>
+  </div>
+
+  <script src="exercicio26.js"></script>
+</body>
+</html>

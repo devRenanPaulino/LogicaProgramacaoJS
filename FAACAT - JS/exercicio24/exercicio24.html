@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário Comissão pós venda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Calculadora de Comissão</h2>
+
+    <label for="salarioFixo">Salário Fixo:</label>
+    <input type="number" id="salarioFixo" step="0.01" placeholder="Ex: 2000.00" />
+
+    <label for="totalVendas">Total de Vendas:</label>
+    <input type="number" id="totalVendas" step="0.01" placeholder="Ex: 2500.00" />
+
+    <button onclick="calcularSalario()">Calcular Salário Total</button>
+
+    <h3>Resultado:</h3>
+    <p id="resultado"></p>
+  </div>
+
+  <script src="exercicio24.js"></script>   
+</body>
+</html>
