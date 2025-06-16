@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HortFruit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fruteira JavaScript</h1>
+        <p>Morango até 5Kg: R$ 2,50 | acima: R$ 2,20</p>
+        <p>Maçã até 5Kg: R$ 1,80 | acima: R$ 1,50</p>
+        <p>Desconto de 10% se > 8Kg ou total > R$ 25</p>
+
+        <input type="number" id="kgMorango" placeholder="Kg de Morango" min="0" step="0.1">
+        <input type="number" id="kgMaca" placeholder="Kg de Maçã" min="0" step="0.1">
+        <button onclick="calcularCompra()">Calcular Total</button>
+
+        <p id="resultado"></p>
+    </div>
+
+  <script src="exercicio37.js"></script>   
+</body>
+</html>

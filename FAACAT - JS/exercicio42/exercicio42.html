@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Simulador de Aposentadoria - INSS</h2>
+
+        <label for="codigo">Código do Empregado:</label>
+        <input type="number" id="codigo" placeholder="Ex: 12345" />
+
+        <label for="nascimento">Ano de Nascimento:</label>
+        <input type="number" id="nascimento" placeholder="Ex: 1965" />
+
+        <label for="ingresso">Ano de Ingresso na Empresa:</label>
+        <input type="number" id="ingresso" placeholder="Ex: 1990" />
+
+        <button onclick="verificarAposentadoria()">Verificar</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="exercicio42.js"></script>
+</body>
+</html>
